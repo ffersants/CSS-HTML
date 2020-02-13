@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: "fonte";
+	src: url("fonts/SpaceAge.woff");
+}
+
+
+
+html, body{
+	height: 100%;
+}
+
+.conteudo{
+	padding: 20px;
+	opacity: 0.8;
+	font-family: "fonte";
+	margin: 0 auto;	
+	text-align: center;
+}
+
+.img1, .img2, .img2{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}	
+
+	/* /FORMATAÇÃO GENERALIZADA*/
+
+.img1{
+	background-image: url(images/imagem1.jpg);
+	padding: 50px 50px;
+}
+
+.img2{
+	background-image: url(images/imagem2.jpg);
+}
+
+/*CONTAINER IMG1*/
+
+.img1>nav{
+	border: 2px solid;
+	border-color: rgb(195,195,195,0.5);
+/*a opacidade incluída como valor dispensa o uso da 
+propriedade opacity e não afeta os demais elementos 
+dentro da div com borda*/
+	margin: 0 auto;
+	height: 100%;	
+	border-radius: 2em;
+}
+
+nav div{
+	color: white;
+	padding: 30px;
+	font-size: 4em;
+	font-family: Helvetica, sans-serif;
+}
+
+.img2 h1{
+	color: grey;
+	font-size: 6em;
+	font-family: Helvetica, sans-serif;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+h1.second{
+	color: white;
+	font-size: 4em;
+	font-family: Helvetica, sans-serif;
+	padding-right: 60px;
+	float: right;
+}

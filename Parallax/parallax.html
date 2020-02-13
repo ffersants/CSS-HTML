@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<meta charset="utf-8">
+	<!-- https://michalsnik.github.io/aos/ -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="parallaxStyle.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div class="img1" >
+		<nav>
+			<div>
+				<h1 data-aos="fade-up">_Hello World!</h1>
+			</div>
+		</nav>
+	</div>
+
+
+	<div class="conteudo" >
+		<h2>Lorem ipsum dolor</h2> 
+		<p>
+			Sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+		</p>
+	</div>
+
+
+	<div class="img2">
+		<div>
+			<h1 data-aos="fade-right">It's a page</h1> 
+
+			<h1 class="second" data-aos="fade-up"> Made with parallex effects.</h1>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	AOS.init({
+  	duration: 1200,
+  });
+</script>
+</body>
+</html>

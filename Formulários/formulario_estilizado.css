@@ -1,0 +1,27 @@
+fieldset{
+	margin: 0;
+	padding: 0;
+}
+
+label{
+	display: block;
+	width: 500px;
+	padding: 5px;
+	background: #ccc;
+	cursor: pointer;
+
+}
+textarea{
+	width: 20em;
+	height: 10em;
+}
+
+#rotina{
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+div{
+	border: red 3px solid;
+	border-radius: 1em;	
+}

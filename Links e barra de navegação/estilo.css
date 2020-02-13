@@ -1,0 +1,41 @@
+*{
+	font-size: 16px;
+	color: black;
+	font-family: cursive;
+	margin:0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+}
+
+ul{
+	margin: 0 50; 
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul a{
+	background: #f7b600;
+	border: 1px solid red;
+	height: 40px;
+	display: block;
+	text-decoration: none;
+}
+
+ul a:hover{
+	background: #f99200;
+}
+
+#home a.home,
+#sobre a.sobre,
+#servicos a.servicos,
+#noticias a.noticias,
+#contato a.contato
+{
+	background: #f99200;
+}

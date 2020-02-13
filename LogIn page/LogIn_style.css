@@ -1,0 +1,66 @@
+
+body{
+	background: #643d87 url(images/fundo.jpg) no-repeat top center;
+	min-width: 490px;
+}
+
+#divMae{
+	margin: 0 auto;
+	width: 30em;
+	height: 20em;
+	background: white;
+	border-radius: 2em;
+	border:none;
+	text-align: center;
+	margin-top: 100PX;
+}	
+
+#userIcon{
+	height: 120px;
+	margin-top: -60px;
+
+}
+
+img{
+	opacity: 1;
+}
+
+#login{
+	width: 480px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input{
+	padding-left: 30px;
+	width: 80%;
+	height: 20px;
+	background: white;
+	opacity: 1 !important;
+}
+
+input[name="user"]{
+	background-image: url(images/icone-usuario.png);
+	background-repeat: no-repeat;
+}
+
+input[name="password"]{
+	background-image: url(images/icone-cadeado.png);
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+input[type="button"]{
+	width: 80%;
+	height: 30px;
+	background-color: orange;
+	margin-top: 20px;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+input[type="button"]:active{
+	background-color: white;
+}
+

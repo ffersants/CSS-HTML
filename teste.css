@@ -1,0 +1,72 @@
+/* *{
+	margin: 0;
+	padding: 0
+}
+
+html, body{
+	height: 100vh;
+}
+
+.bkg{
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#bkg1{
+	background-image: url(imagem1.jpg);
+}
+
+#lorem{
+	background-color: white;
+	height: 400px;
+}
+
+#bkg2{
+	background-image: url(imagem2.jpg);
+} */
+
+/* /// sobre o uso de box-sizing: border-box 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 100%;
+	background-color: black;
+	position: relative;
+}
+
+#blocoA, #blocoB{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+	padding: 20px;
+}
+
+#blocoA{
+	background-color: grey;
+	left: 25%;
+}
+
+#blocoB{
+	background-color: green;
+	right: 25%;
+	box-sizing: border-box;
+}
+
+ /// sobre o uso de box-sizing: border-box */
+
+ /* usando box-shadow e text-shadow */
+
+*{
+	background-color: yellow;
+}
+
+h1{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

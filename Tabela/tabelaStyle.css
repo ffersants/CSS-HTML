@@ -1,0 +1,64 @@
+body{
+	min-width: 480px;
+	margin: 10px;
+}
+
+div{
+	width: 100%;
+	margin: 0 auto;
+}
+
+table {
+	margin: 0 auto;
+	width: 70%;
+	border-collapse: collapse;/*or separate*/
+}
+
+
+td, th{
+	border: black 1px solid;
+	text-align: center;
+}
+
+th{
+	font-size: 1.3em;
+}
+
+#one{
+	width: 20%;
+	text-align: center;  
+}
+
+#two{
+	width: 40%;
+}
+
+#three{
+	width: 80%;
+}
+
+#four{
+	width: 100%;
+}
+
+p{
+	text-align: right;
+	letter-spacing: 1em;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: cursive;
+	text-transform: uppercase;
+}
+
+tr.color{
+	background: #ccc;
+}
+
+tr:hover{
+	background: #c3e6e5;
+}
+
+.title{
+	font-weight: bold;
+}
+

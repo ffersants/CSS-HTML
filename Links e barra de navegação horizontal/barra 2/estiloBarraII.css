@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+
+}
+
+p{
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	font-family: cursive;
+}
+
+ul{
+	list-style: none;
+	width: 100%;
+	min-width: 900px;
+	display: flex;
+	justify-content: center;
+}
+
+li{
+	display: inline;
+	background: url(images/aba-direita.png) no-repeat top right;
+	margin: 10px;
+	width: 100px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	background: url(images/aba-esquerda.png) no-repeat top left;
+	display: block;
+	/*sem display block não há como usar align content,
+	pois o link possui comportamento inline, e o tamanho que oculpa é o 
+	tamanho de seu conteúdo, portanto, não veria o espaço disponível dentro da li
+	e assim não posicionaria-se ao centro, caso não tivesse setado display:block*/
+	text-align: center;
+}/*seletor de descendente, takes every <a> element inside a li tag*/
+
+li a:hover{
+	color: black;
+}
+
+li#actived a{
+	background: url(images/aba-esquerda-atual.png) no-repeat top left;
+}
+
+li#actived{
+	background: url(images/aba-direita-atual.png) no-repeat top right;
+
+}
+

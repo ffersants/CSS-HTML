@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	/*para "text-align: justify", atribuir uma classe à última li
+	e adicionar o css:
+	
+	.ultima-li{
+		display: inline-block;
+		width: 100%;
+		content:'';
+	}
+
+	a última linha nunca é justificada, caso esse css não seja adicionado
+	a linha com os contents exibidos serão considerados últimos, portanto,
+	não sendo justificados//
+	https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4
+	;
+	*/
+	background: #159cb0 url(images/fundo-horizontal.png) repeat-x;
+}
+
+li{
+	display: inline-block;
+	background: url(images/divisor.png) repeat-y right;
+
+}
+
+a{
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: cursive;
+	color: white; 
+	padding: 20px;
+	line-height: 4em;
+}
+
+li.last-one{
+	background: none;
+}

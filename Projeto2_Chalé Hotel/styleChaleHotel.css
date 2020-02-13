@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+/*	background: url(images/bg-container.png);
+*/	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	margin: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+#container{
+	margin: 0 auto;
+	min-width: 740px;/*testar esses valores aqui e depois no container*/
+	max-width: 1180px;/*testar esses valores aqui e depois no container*/
+}
+
+/*editando cabeçalho*/
+
+header{
+	position: relative;
+	height: 15.4em;
+	min-height: 250px;
+}
+
+#left-side{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(images/topo-imagem-principal.png) no-repeat;
+	width: 100%;
+	height: 250px;
+	text-indent: -9000px;
+}
+
+#left-side img{
+	margin-left: 15px;
+	margin-top: -15px;
+	z-index: 100;
+}
+
+#right-side{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(images/topo-imagem-lateral.png) no-repeat;
+	width: 450px;
+	height: 250px;
+	z-index: 20;
+}
+
+#conteudo-menu{
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;
+}/*essa div determina o espaço para os conteudos à direita*/
+
+#menu-locais{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+	border-bottom: 1px solid #b5ab56;
+	border-top: 1px solid #b5ab56;
+	color: #8b8448;
+}
+
+#menu-locais-links a:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+a#reservar{
+	background: #a29750;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #fff5b0;
+}
+
+a#reservar:hover{
+	color: #fff;
+}
+
+div#menu-horizontal{
+	float: left;
+}
+
+#menu-horizontal ul{
+	margin-top: 20px;
+	float: left;
+}
+
+#menu-horizontal li{
+	padding: 8px 5px;
+}
+
+#menu-horizontal a{
+	font-weight: bold;
+	color: #a29751;
+	padding: 5px;
+}
+
+#menu-horizontal a:hover{
+	background : #fdf6be;
+}
+
+#depoimento{
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+
+/*fim da edição do cabeçalho*/
+
+/*edição do feed de navegação*/
+
+nav{
+	background: url(images/bg-container.png) top left;
+}
+
+.conteudo{
+	width: 90%;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#feed-left{
+	float: left;
+	width: 50%;
+}
+
+nav h1{
+	color: #a29750;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+#feed-left p{
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#feed-right{
+	float: right;
+	width: 50%;
+	background: rgb(220, 216, 183);
+/*	height: 100vh;
+*/}
+
+
+#feed-right-lista-links{
+	float: left; 
+	padding-bottom: 15px;
+}
+
+li.nav-right-links{
+	float: left;
+	border-top: 1px solid #f3efcb;
+	padding: 10px;
+}
+
+.nav-right-links:nth-child(1){
+	border: none;
+}
+/*Y:nth-child(X) is a selector that takes the child element 
+in the X index inside an Y father element*/
+
+li.nav-right-links:hover{
+	background: #ede9cc;
+	cursor: pointer;
+}
+
+#link img{
+	width: 160px;
+	float: left;
+	padding-right: 5px;
+}
+
+#link p{
+	display: inline;
+	color: black;
+}
+
+#link p.titulo-link{
+	color: #615b2d;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 10px;
+	background: url(images/ornamento.png) no-repeat right top;
+}
+
+#clear{
+	clear: both;
+	background: url(images/bg-rodape.png);
+	height: 15px;
+}
+
+#separador{
+	width: 100%;
+	background: url(images/bg-rodape.png);
+	height: 15px;
+}
+
+footer{
+	min-width: 740px;/*testar esses valores aqui e depois no container*/
+	max-width: 1180px;
+	margin: 0 auto;
+	color: #7d7640;	
+}
+

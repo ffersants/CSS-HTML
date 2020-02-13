@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#mae{
+	margin: 0 auto;
+	max-width: 1100px;
+	min-width: 720px;
+	width: 82%;
+	background: #007366
+}
+
+#barrasuperior{
+	background: #225992 url(images/cabecalho2.jpg);
+	height: 300px;
+	line-height: 300px;
+}
+
+div#barrasuperior p{
+	font-size: 4em;
+	margin: 0;
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+#area_conteudo{
+	width: 100%;
+}
+
+#areadelinks{
+	width: 15%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	background: #a7d8f8;
+}
+
+ul{
+	list-style-type: none;
+}
+
+div#areadelinks a{
+	text-decoration: none;
+	font-size: 1.5em;	
+	font-family: cursive;
+	line-height: 56px;
+	color: blue;
+}
+
+#conteudo{
+	width: 80%;
+	float: right;
+}
+
+#imagem{
+	width: 95%;
+	padding: 2%; 
+}
+
+#conteudo1{
+	background-color: white;
+	float: left;
+	width: 50%;
+	text-align: justify;
+}
+
+#conteudo2{
+	background: #a7d8f8;
+	float: right;
+	width: 45%;
+}
+
+#rodape{
+	background-color: grey;
+	width: 100%;
+	clear: both;
+}
+div#rodape p{
+	font-size: 1em;
+	color: red;
+	font-family: cursive;
+	text-align: center;
+}
