@@ -1,4 +1,4 @@
-*{
+ *{
 	padding: 0;
 	margin: 0;
 }
@@ -20,6 +20,8 @@ html, body{
 	font-family: "fonte";
 	margin: 0 auto;	
 	text-align: center;
+	z-index: 50;
+	filter: blur(0px)!important;
 }
 
 .img1, .img2, .img2{
@@ -27,6 +29,7 @@ html, body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+
 }	
 
 	/* /FORMATAÇÃO GENERALIZADA*/
@@ -51,6 +54,8 @@ dentro da div com borda*/
 	margin: 0 auto;
 	height: 100%;	
 	border-radius: 2em;
+	z-index: 50;
+	
 }
 
 nav div{

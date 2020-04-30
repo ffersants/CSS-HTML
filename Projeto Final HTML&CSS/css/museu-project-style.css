@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(../img/fundo.png) top center repeat-x;
+    background: #9f9f9f url(../img/fundo.png) top center repeat-x;
     /* background-size: cover; */
     display: flex;
     justify-content: space-around;
@@ -14,10 +14,12 @@ body{
 
 ul{
     list-style: none;
+    display: flex;
 }
 
 a{
     text-decoration: none;
+    color: #227115;
 }
 
 #container{
@@ -26,6 +28,7 @@ a{
     height: 900px;
     border: 5px solid yellow;
     box-sizing: border-box;
+    text-align: center;
 }
 
 header{
@@ -42,13 +45,40 @@ nav{
 li{
     display: inline;
     padding-right: 20px;
+    flex-wrap: wrap;
 }
 
 .nav-link{
     color: rgb(153, 111, 35);
 }
 
+
+
 #row-one{
-    display: flex;
-    justify-content: space-between;    
+   float: left;
+   margin-right: 15px;
 }
+
+h3{
+    display: inline;
+}
+
+div{
+    display: inline-block;
+    width: 350px;
+    box-sizing: border-box;
+    border: yellow 2px solid;
+    padding: 15px;
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+p{
+    display: inline;
+}
+

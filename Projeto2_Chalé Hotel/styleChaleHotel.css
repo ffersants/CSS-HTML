@@ -21,7 +21,7 @@ ul{
 
 #container{
 	margin: 0 auto;
-	min-width: 740px;/*testar esses valores aqui e depois no container*/
+	
 	max-width: 1180px;/*testar esses valores aqui e depois no container*/
 }
 
@@ -90,26 +90,29 @@ a#reservar:hover{
 	color: #fff;
 }
 
-div#menu-horizontal{
+div#menu-vertical{
 	float: left;
 }
 
-#menu-horizontal ul{
-	margin-top: 20px;
+#menu-vertical ul{
+	margin-top: 0px;
 	float: left;
 }
 
-#menu-horizontal li{
+#menu-vertical li{
 	padding: 8px 5px;
 }
 
-#menu-horizontal a{
+#menu-vertical{
 	font-weight: bold;
-	color: #a29751;
-	padding: 5px;
+	color: #a29751;	
 }
 
-#menu-horizontal a:hover{
+#menu-vertical ul li a{
+	color: #a29751;
+}
+
+#menu-vertical a:hover{
 	background : #fdf6be;
 }
 
@@ -134,7 +137,6 @@ nav{
 }
 
 #feed-left{
-	float: left;
 	width: 50%;
 }
 
@@ -148,9 +150,8 @@ nav h1{
 	font-weight: bold;
 	padding-top: 10px;
 }
-
 #feed-right{
-	float: right;
+	/* float: right; */
 	width: 50%;
 	background: rgb(220, 216, 183);
 /*	height: 100vh;

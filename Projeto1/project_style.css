@@ -5,7 +5,7 @@
 }
 
 html{
-	min-width: 1100px
+	/* min-width: 1100px */
 }
 
 a{
@@ -16,7 +16,10 @@ ul{
 	list-style: none;
 }
 
+@media (max-width: 576px) {
+	
 
+}
 
 /*div de fundo com o background que fica no topo*/
 body{
